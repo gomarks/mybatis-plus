@@ -151,6 +151,8 @@ public class MybatisParameterHandler implements ParameterHandler {
                     }
                 } else if (idType.getKey() == IdType.ASSIGN_UUID.getKey()) {
                     metaObject.setValue(keyProperty, identifierGenerator.nextUUID(entity));
+                } else if (idType.getKey() == IdType.ASSIGN_KSUID.getKey()) {
+                    metaObject.setValue(keyProperty, identifierGenerator.nextKsuid(entity));
                 }
             }
         }

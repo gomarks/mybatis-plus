@@ -4,6 +4,7 @@ dependencies {
     api project(":mybatis-plus-annotation")
     api "${lib.'jsqlparser'}"
     api "${lib.mybatis}"
+    api "${lib.ksuid}"
 
     implementation "${lib.cglib}"
     implementation "${lib.'spring-aop'}"

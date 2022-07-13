@@ -52,7 +52,12 @@ public enum IdType {
      * 分配UUID (主键类型为 string)
      * 默认实现类 {@link com.baomidou.mybatisplus.core.incrementer.DefaultIdentifierGenerator}(UUID.replace("-",""))
      */
-    ASSIGN_UUID(4);
+    ASSIGN_UUID(4),
+
+    /**
+     * 分配 KSUID (主键类型为 string)
+     */
+    ASSIGN_KSUID(5);
 
     private final int key;
 

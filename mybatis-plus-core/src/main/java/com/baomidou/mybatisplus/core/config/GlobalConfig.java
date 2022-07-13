@@ -85,7 +85,7 @@ public class GlobalConfig implements Serializable {
         /**
          * 主键类型
          */
-        private IdType idType = IdType.ASSIGN_ID;
+        private IdType idType = IdType.ASSIGN_KSUID;
         /**
          * 表名前缀
          */

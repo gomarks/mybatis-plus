@@ -1,8 +1,8 @@
 import java.time.LocalDateTime
 
 allprojects {
-    group = 'cn.bjca.footstone.baomidou'
-    version = "3.5.2-BJCA-SNAPSHOT"
+    group = 'cn.bjca.footstone'
+    version = "3.5.2-SNAPSHOT"
 }
 
 ext {
